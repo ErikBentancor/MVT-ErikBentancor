@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+    <link type="text/css" href="app_f\db.sqlite3" rel="stylesheet" />
+</head>
+<body>
+    <b>Esta es mi base de datos </b>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Cumpleaños</th>
+        
+        </tr>
+        {% for item in li %}
+        <tr>
+            <td>{{ item.nombre }}</td>
+            <td>{{ item.edad }}</td>
+            <td>{{ item.cumpleaños }}</td>
+         </tr>
+        {% endfor %}
+
+</body>
+</html>
