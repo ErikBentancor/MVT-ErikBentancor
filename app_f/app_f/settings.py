@@ -55,8 +55,7 @@ ROOT_URLCONF = 'app_f.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/Erik/Desktop/Coder/app_f/app_f/plantillas"
-        ],
+        'DIRS': [ ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
